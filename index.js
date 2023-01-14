@@ -1,6 +1,6 @@
 function onSubmit(){
     var text = document.getElementById('answer').value;
-    text=  text + "\n" + document.getElementById('no').value;
+    text=  document.getElementById('no').value;
     
     const msg = "d【送信内容】\n" + text;
     console.log(msg);
