@@ -1,6 +1,7 @@
 function onSubmit(){
-    const text = document.getElementById('answer').value;
-
+    var text = document.getElementById('answer').value;
+    text=  text+"\n"+document.getElementById('num').value;
+    
     const msg = "【送信内容】\n" + text;
     console.log(msg);
     sendText(msg);
